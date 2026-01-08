@@ -1,0 +1,54 @@
+body {
+  margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #000000;
+}
+
+.parallax {
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.p1 { background-image: url("images/onepiece.jpg"); }
+.p2 { background-image: url("images/onepiece2.jpg"); }
+.p3 { background-image: url("images/onepiece3.png"); }
+
+.encadre {
+  background: rgba(0, 0, 0, 0.55);
+  color: #fff;
+  padding: 18px 28px;
+  border-radius: 10px;
+  font-size: 34px;
+  text-align: center;
+}
+
+.encadre.autre {
+  font-size: 26px;
+}
+
+.content {
+  background: #fff;
+  padding: 42px 10%;
+  line-height: 1.6;
+}
+
+.content.alt {
+  background: #f4f4f4;
+}
+
+.content h1, .content h2 {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  .parallax { background-attachment: scroll; }
+  .encadre { font-size: 26px; }
+  .encadre.autre { font-size: 22px; }
+  .content { padding: 32px 8%; }
+}

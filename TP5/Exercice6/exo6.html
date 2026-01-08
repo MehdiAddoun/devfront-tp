@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Exercice 6</title>
+  <link rel="stylesheet" href="exo6.css">
+</head>
+<body>
+  <div class="parallax p1">
+    <div class="encadre">Effet de parallaxe</div>
+  </div>
+
+  <section class="content">
+    <h1>Principe</h1>
+    <p>
+      Une section parallaxe utilise une image de fond fixe pendant que le contenu défile.
+      Ça donne l’impression que l’image bouge moins vite que le texte.
+    </p>
+    <p>
+      Ici, on alterne des sections d’images sur fond fixe et des sections de contenu sur fond blanc.
+    </p>
+  </section>
+
+  <div class="parallax p2">
+    <div class="encadre autre">Section 2</div>
+  </div>
+
+  <section class="content alt">
+    <h2>Structure simple</h2>
+    <ul>
+      <li>Une div avec une image en background</li>
+      <li>Du texte par-dessus en option</li>
+      <li>Une section normale pour le contenu</li>
+    </ul>
+    <p>
+      Le point principal est 
+      <strong>background-attachment: fixed</strong> 
+      sur la div d’image.
+    </p>
+  </section>
+
+  <div class="parallax p3">
+    <div class="encadre autre">Section 3</div>
+  </div>
+</body>
+</html>

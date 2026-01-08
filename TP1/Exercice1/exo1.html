@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Exercice 1</title>
+    <link rel="stylesheet" href="exo1.css" />
+</head>
+<body>
+    <main>
+        <section>
+            <header>
+                <div class="gauche">
+                    <h1>FLEX CONTAINER</h1>
+                    <h2>(élément parent)</h2>
+                </div>
+                <div class="droite">
+                    <div>display: flex</div>
+                    <div id="bas">display: inline-flex</div>
+                </div>
+            </header>
+            <div>
+                <table class="table1">
+                    <tr>
+                        <th>flex-direction</th>
+                        <th>flex-wrap</th>
+                        <th>justify-content</th>
+                        <th>align-items</th>
+                        <th>align-content</th>
+                    </tr>
+                    <tr>
+                        <td class="texte" rowspan="2">
+                            row<br />
+                            row-reverse<br />
+                            column<br />
+                            column-reverse<br />
+                        </td>
+                        <td class="texte" rowspan="2">
+                            no-wrap<br />
+                            wrap<br />
+                            wrap-reverse
+                        </td>
+                        <td class="bas2">axe principal (Main)</td>
+                        <td class="bas2" colspan="2">axe secondaire (Cross)</td>
+                    </tr>
+                    <tr>
+                        <td class="texte" rowspan="3">
+                            flex-start<br />
+                            flex-end<br />
+                            center<br />
+                            space-between<br />
+                            space-around<br />
+                            space-evenly    
+                        </td>
+                        <td class="texte2" rowspan="3">
+                            flex-start<br />
+                            flex-end<br />
+                            center<br />
+                            baseline<br />
+                            <div class="rouge">stretch</div> 
+                        </td>
+                        <td class="texte2" rowspan="3">
+                            flex-start<br />
+                            flex-end<br />
+                            center<br />
+                            space-between<br />
+                            space-around<br />
+                            <div class="rouge">stretch</div> 
+                        </td>
+                    </tr>
+                    <tr>
+                        <th colspan="2">flex-flow</th>
+                    </tr>
+                    <tr>
+                        <td class="texte2" colspan="2">flex-direction + flex-wrap.</td>
+                    </tr>
+                </table>
+            </div>
+        </section>
+        <section>
+            <header>
+                <div class="gauche">
+                    <h1>FLEX ITEMS</h1>
+                    <h2>(élément enfant)</h2>
+                </div>
+                <div class="droite2">
+                    <div>ITEM 1</div>
+                    <div>ITEM 2</div>
+                    <div>ITEM 3</div>
+                </div>
+            </header>
+            <table class="table2">
+                    <tr>
+                        <th colspan="1" class="titre">order</th>
+                        <td colspan="3">0</th>
+                    </tr>
+                    <tr>
+                        <th class="titre">
+                            flex-grow
+                        </td>
+                        <td>
+                            0
+                        </td>
+                        <td rowspan="3">
+                            <span>flex :</span> 
+                            <span class="auto">0 1 auto</span>
+                        </td>
+                    </tr>
+                    <tr>
+                        <th class="titre">flex-shrink</td>
+                        <td >1</td>
+                    </tr>
+                    <tr>
+                        <th class="titre" >flex-basis</td>
+                        <td >auto</td>
+                    </tr>
+                    <tr>
+                        <th colspan="1" class="titre">align-self</td>
+                        <td colspan="3" >auto</td>
+                    </tr>
+                </table>
+                <p class="espace">&nbsp</p>
+        </section>        
+    </main>  
+</body>
+</html> 

@@ -1,0 +1,143 @@
+*{
+  box-sizing: border-box;
+}
+
+body{
+  margin: 0;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: 14px;
+  line-height: 1.5;
+  color: #333;
+
+  background-color: #eee;
+  background-image: url("ressources/wrap.gif"), url("ressources/bg.gif");
+  background-repeat: repeat-x, repeat-x;
+  background-position: top left, bottom left;
+}
+
+#page{
+  width: 960px;
+  margin: 0 auto;
+  background: #fff;
+}
+
+a:link{ color: #633; }
+a:visited{ color: #966; }
+a:hover{ text-decoration: underline; }
+
+header{
+  height: 192px;
+  background-color: #966;
+  background-image: url("ressources/header.gif");
+  background-repeat: no-repeat;
+  background-position: left bottom;
+  padding: 18px 30px 0 30px;
+}
+
+header p{
+  margin: 0;
+  color: #fff;
+  font-size: 16px;
+}
+
+header ul{
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  float: right;
+}
+
+header li{
+  display: inline-block;
+  margin-left: 18px;
+}
+
+header a:link,
+header a:visited{
+  color: #fff;
+  text-decoration: none;
+}
+
+header a:hover{
+  color: #300;
+  text-decoration: none;
+}
+
+#content{
+  overflow: hidden;
+  padding-bottom: 40px;
+}
+
+#content section{
+  float: right;
+  width: 768px;
+  padding: 0 60px 0 60px;
+}
+
+#content section h1{
+  margin: 0;
+  padding: 18px 0 10px 0;
+  text-align: center;
+  font-size: 22px;
+  color: #633;
+}
+
+#content section h2{
+  margin: 22px 0 8px 0;
+  padding-top: 34px;
+  background: url("ressources/h2_ornament.gif") no-repeat left top;
+  font-size: 16px;
+  color: #999;
+}
+
+#content section p{
+  margin: 0 0 14px 0;
+}
+
+#content section img{
+  float: left;
+  margin: 6px 18px 14px 0;
+  border: 6px solid #fff;
+  outline: 1px solid #ddd;
+}
+
+#content aside{
+  float: left;
+  width: 192px;
+  padding: 26px 18px 0 18px;
+  color: #666;
+}
+
+#content aside h3{
+  margin: 0 0 10px 0;
+  font-size: 15px;
+  color: #633;
+}
+
+#content aside strong{
+  color: #300;
+}
+
+footer{
+  background-color: #333;
+  background-image: url("ressources/footer.gif");
+  background-repeat: no-repeat;
+  background-position: top left;
+  padding: 148px 30px 26px 30px;
+  color: #ccc;
+  font-size: 12px;
+}
+
+footer p{
+  margin: 0;
+}
+
+footer a:link,
+footer a:visited{
+  color: #c99;
+  text-decoration: none;
+}
+
+footer a:hover{
+  text-decoration: underline;
+}
