@@ -26,10 +26,9 @@
   <div class="conteneur">
     <h1 class="titre-exo">TP5 — Exercice5</h1>
     <div class="texte-exo">
-  <p><strong>Connaissances utilisées :</strong> Animations CSS.</p>
-  <p><strong>Difficulté :</strong> moyenne. Il faut bien comprendre les propriétés CSS/JS et tester plusieurs fois pour que ça marche comme prévu.</p>
-  <p><strong>Intérêt :</strong> ça m’a aidé à pratiquer la logique et à mieux voir comment un petit détail (taille, position, boucle, etc.) change tout.</p>
-  <p><strong>Qualité du résultat :</strong> le rendu est correct et fonctionnel. Le code reste simple, mais je pense que je peux encore l’organiser et le commenter mieux.</p>
+  <p>Dans cet exercice, il fallait gérer une barre de navigation placée en bas du header : elle défile normalement au début, puis quand elle arrive en haut de la page, elle reste “collée” grâce à un effet sticky. Le but était de comprendre la différence entre un menu classique et un menu qui reste visible pendant le scroll, tout en respectant la contrainte de ne pas modifier le HTML (donc tout se fait en CSS).
+C’est un exercice utile parce que ce comportement se retrouve souvent sur des sites modernes, et ça améliore la navigation quand la page est longue. Au début j’ai eu du mal à faire fonctionner position: sticky, parce que ça ne marche pas si un parent a un overflow particulier ou si on oublie top: 0. J’ai aussi dû tester plusieurs fois pour que le menu se colle exactement au bon moment, sans bouger le reste de la page. Je sais pas si c'est le résultat attendu mais j'ai fait de mon mieux.</p>
+<p>Connaissances mises en jeu : positionnement CSS (sticky, top), gestion du scroll, hiérarchie des éléments, contraintes “sans modifier le HTML”, z-index si nécessaire, mise en forme d’une navigation.</p>
 </div>
     <iframe class="apercu" src="../TP5/Exercice5/exo5.html" height="560" title="TP5 Exercice5"></iframe>
     <a class="lien-retour" href="../index.html">Retour à l’accueil</a>
